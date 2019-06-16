@@ -48,6 +48,63 @@
             </div>
         </div>
     </div>
+    <div class="upload">
+        <h2 class="titres-pages">Upload</h2>
+        <p class="noms-disques">Uploader un fichier</p>
+        <div class="container-disk">
+            <input hidden type="file" name="file" id="file" class="inputfile" />
+            <label class="choosefile" for="file">Source File</label>
+            <input hidden type="file" name="file" id="file" class="inputfile" />
+            <label class="choosefile" for="file">File Destination</label>
+        </div>
+        <p class="noms-disques">Derniers fichiers uploadés</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+            </div>
+        </div>
+        <p class="noms-disques">Fichiers à uploader</p><!-- créer un dossiers sur pc portable : "trucs à uploader" -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+                <div class="col disk-space"><i class="far fa-image"></i></div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

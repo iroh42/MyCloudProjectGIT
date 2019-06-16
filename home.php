@@ -50,6 +50,9 @@
     </div>
     <div class="home">
         <h2 class="titres-pages">Home</h2>
+        <div class="container-disk">
+            <div class="image-cloud"></div>
+        </div>
         <p class="noms-disques">Fichiers récent</p>
         <div class="container-fluid">
             <div class="row">
