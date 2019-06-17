@@ -53,9 +53,9 @@
         <p class="noms-disques">Uploader un fichier</p>
         <div class="container-disk">
             <input hidden type="file" name="file" id="file" class="inputfile" />
-            <label class="choosefile" for="file">Source File</label>
+            <label class="choosefile" for="file"><i class="fas fa-file-upload"></i>Source File</label>
             <input hidden type="file" name="file" id="file" class="inputfile" />
-            <label class="choosefile" for="file">File Destination</label>
+            <label class="choosefile" for="file"><i class="fas fa-file-import"></i>File Destination</label>
         </div>
         <p class="noms-disques">Derniers fichiers uploadés</p>
         <div class="container-fluid">

@@ -40,19 +40,55 @@ body{
     justify-content: space-evenly;
 }
 
-.box-profile {
+.box-profile-1 {
     display: flex;
     border-radius: 0px;
     justify-content: space-around;
     align-items: center;
+    border-radius: 4px;
+    transition: 0.2s;
+    border: rgba(255, 255, 255, 0) solid 8px;
     margin: 10px;
     height: 14vh;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15), 1px 2px 4px rgba(0, 0, 0, 0.15);
+}.box-profile-1:hover {
+    border: rgba(255, 255, 255, 0) solid 1px;
 }
 
-.logout-button {
+.box-profile-2 {
+    display: flex;
+    border-radius: 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.2s;
+    border: rgba(255, 255, 255, 0) solid 8px;
+    margin: 10px;
+    height: 14vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15), 1px 2px 4px rgba(0, 0, 0, 0.15);
+}.box-profile-2:hover {
+    border: rgba(255, 255, 255, 0.6) solid 1px;
+    background-color: #004085;
+}
+
+#logout-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    width: 25vw;
     text-decoration: none;
+    color: darkred;
+}#logout-button:hover {
+    color: rgba(230, 232, 232, 0.7);
+}
+
+#reload-button {
+    color: green;
+}#reload-button:hover {
+    color: #004085;
 }
 
 .profile-message {
