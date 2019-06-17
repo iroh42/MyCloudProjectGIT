@@ -52,7 +52,7 @@
         <h2 class="titres-pages">Profile</h2>
         <p class="noms-disques">Welcome to your Administrator dashboard</p>
         <div class="container-profile">
-            <div class="box-profile-1 profile-1 profile-message">
+            <div class="box-profile-1 profile-1">
                 <p><i class="fas fa-shield-alt fa-3x"></i></p>
                 <p>Security check : <i class="fas fa-check"></i></p>
                 <p><a href="#" id="reload-button"><i class="fas fa-sync-alt fa-2x"></i></a></p>
@@ -60,6 +60,18 @@
             <div class="box-profile-2 profile-2">
                 <a href="#" id="logout-button"><i class="fas fa-power-off fa-3x"></i></a>
             </div>
+        </div>
+        <div class="container-profile">
+            <div class="box-profile-2 profile-2"></div>
+            <div class="box-profile-1 profile-1"></div>
+        </div>
+        <div class="container-profile">
+            <div class="box-profile-1 profile-1"></div>
+            <div class="box-profile-2 profile-2"></div>
+        </div>
+        <div class="container-profile">
+            <div class="box-profile-2 profile-2"></div>
+            <div class="box-profile-1 profile-1"></div>
         </div>
     </div>
 </div>

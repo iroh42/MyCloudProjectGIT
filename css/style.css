@@ -50,7 +50,7 @@ body{
     border: rgba(255, 255, 255, 0) solid 8px;
     margin: 10px;
     height: 14vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15), 1px 2px 4px rgba(0, 0, 0, 0.15);
 }.box-profile-1:hover {
     border: rgba(255, 255, 255, 0) solid 1px;
@@ -108,14 +108,14 @@ body{
 */
 
 .upload {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    position: absolute;
-    left: 15vw;
-    width: 85vw;
-    max-height: 100vh;
-    top: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 15vw;
+  width: 85vw;
+  max-height: 100vh;
+  top: 0;
+  overflow-y: scroll;
 }
 
 .choosefile {
@@ -128,7 +128,7 @@ body{
     justify-content: space-around;
     margin: 10px;
     height: 6vh;
-    width: 20vh;
+    width: 25vh;
     border-radius: 4px;
     border: rgba(230, 232, 232, 1) solid 8px;
     background-color: rgba(230, 232, 232, 1);

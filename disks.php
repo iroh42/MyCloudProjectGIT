@@ -57,7 +57,14 @@
                 <div id="progressbar">
                     <div></div>
                 </div>
-                <i class="far fa-caret-square-down"></i>
+                <div class="btn-group">
+                    <button type="button" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-caret-square-down"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
+                </div>
             </div>
             <div class="disk-space space-2">
                 <div class="red"><i class="fas fa-square"></i> 15,65 Go</div>
